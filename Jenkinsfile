@@ -1,6 +1,5 @@
 pipeline {
     agent any
-<<<<<<< HEAD
     environment {
         IMAGE_NAME = '1vanaja/simple-app'
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
