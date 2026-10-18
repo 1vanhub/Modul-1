@@ -1,5 +1,6 @@
 pipeline {
     agent any
+<<<<<<< HEAD
     environment {
         IMAGE_NAME = '1vanaja/simple-app'
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
@@ -43,3 +44,13 @@ pipeline {
         }
     }
 }
+=======
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'My Jenkins Pipeline'
+            }
+        }
+    }
+}
+>>>>>>> 74d6ca99f27a047cccf2260d05625b5fe2137359
